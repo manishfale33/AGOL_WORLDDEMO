@@ -976,15 +976,15 @@ textarea.form-control {
 }
 
 .carousel .one {
-    background-image: url(../img/banner/banner-bg-2.jpg);
+    background-image: url(../img/banner/banner-bg-2.png);
 }
 
 .carousel .two {
-    background-image: url(../img/banner/banner-bg-3.jpg);
+    background-image: url(../img/banner/banner-bg-3.png);
 }
 
 .carousel .three {
-    background-image: url(../img/banner/banner-bg-4.jpg);
+    background-image: url(../img/banner/banner-bg-4.png);
 }
 
 .carousel .four {
@@ -1018,7 +1018,7 @@ textarea.form-control {
 }
 
 .banner-area.bg-3 {
-	background-image: url(../img/banner/banner-bg-3.jpg)
+	background-image: url(../img/banner/banner-bg-3.png)
 }
 
 .banner-area-three {
@@ -1046,23 +1046,23 @@ textarea.form-control {
   @keyframes carousel {
 	0% {
 	  opacity: 1;
-	  background-image: url("../img/banner/banner-bg-2.jpg");
+	  background-image: url("../img/banner/banner-bg-2.png");
 	}
 	25% {
 	  opacity: 0;
-	  background-image: url("../img/banner/banner-bg-3.jpg");
+	  background-image: url("../img/banner/banner-bg-3.png");
 	}
 	50% {
 	  opacity: 0;
-	  background-image: url("../img/banner/banner-bg-4.jpg");
+	  background-image: url("../img/banner/banner-bg-4.png");
 	}
 	75% {
 	  opacity: 0;
-	  background-image: url("../img/banner/banner-bg-5.jpg");
+	  background-image: url("../img/banner/banner-bg-5.png");
 	}
 	100% {
 	  opacity: 1;
-	  background-image: url("../img/banner/banner-bg-2.jpg");
+	  background-image: url("../img/banner/banner-bg-2.png");
 	}
   }
   
