@@ -1,0 +1,5 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.brevo.com	TRUE	/	FALSE	1999999999	__cf_bm	TlfP8NSgzsHZw6jhx3SsUjCQSp8yaWsCS7xq.wP9Fbc-1698770598-0-AQjqFeVsvbMGt7NCN+j5JC6MO/Gckj8xkllpHTE8dlJoZbEx6aXJsayo0x6N7I/nIgv36LFlw1SR6TNd5LjP6kU=
+conversations-widget.brevo.com	TRUE	/	FALSE	1999999999	SameSite	None
+
