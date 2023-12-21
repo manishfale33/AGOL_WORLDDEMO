@@ -988,7 +988,7 @@ textarea.form-control {
 }
 
 .carousel .four {
-    background-image: url(../img/banner/banner-bg-5.jpg);
+    background-image: url(../img/banner/banner-bg-5.png);
 }
 
 #slide-btn-1:checked ~ .one,
@@ -1001,16 +1001,14 @@ textarea.form-control {
 #slide-btn-1:checked ~ .one > *,
 #slide-btn-2:checked ~ .two > *,
 #slide-btn-3:checked ~ .three > *,
-#slide-btn-4:checked ~ .four > *,
-#slide-btn-5:checked ~ .five > * {
+#slide-btn-4:checked ~ .four > * {
     transform: scale(1);
 }
 
 #slide-btn-1:checked ~ .labels label[for="slide-btn-1"],
 #slide-btn-2:checked ~ .labels label[for="slide-btn-2"],
 #slide-btn-3:checked ~ .labels label[for="slide-btn-3"],
-#slide-btn-4:checked ~ .labels label[for="slide-btn-4"],
-#slide-btn-5:checked ~ .labels label[for="slide-btn-5"] {
+#slide-btn-4:checked ~ .labels label[for="slide-btn-4"]{
     background-color: white;
 }
 
