@@ -1,12 +1,29 @@
 document.addEventListener("DOMContentLoaded", function () {
-    var images = ["../img/banner/banner-bg-2.jpg", "../img/banner/banner-bg-3.jpg", "../img/banner/banner-bg-4.jpg", "../img/banner/banner-bg-5.jpg"];
-    var index = 0;
-  
-    function changeBackground() {
-      document.querySelector(".banner-area-three::before").style.backgroundImage = "url(" + images[index] + ")";
-      index = (index + 1) % images.length;
-    }
-  
-    setInterval(changeBackground, 5000); // Change background every 10 seconds, adjust as needed
+  var int;
+
+  function setInt() {
+      clearInterval(int);
+      int = setInterval(function () {
+          var btns = document.getElementsByName("carousel");
+          for (var i = 0; i < btns.length; i++) {
+              if (btns[i].checked) {
+                  btns[i].checked = false;
+                  if (i + 1 == btns.length) {
+                      btns[0].checked = true;
+                  } else {
+                      btns[i + 1].checked = true;
+                  }
+                  return;
+              }
+          }
+      }, 5000);
+  }
+
+  setInt();
+
+  // Add event listeners for radio buttons
+  var radioButtons = document.getElementsByName("carousel");
+  radioButtons.forEach(function (button) {
+      button.addEventListener("change", setInt);
   });
-  
+});

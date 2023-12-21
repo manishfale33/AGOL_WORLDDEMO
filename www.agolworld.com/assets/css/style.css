@@ -918,6 +918,103 @@ textarea.form-control {
 	z-index: 1
 }
 
+.carousel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1; /* Push the carousel behind the content */
+}
+
+.carousel h1 {
+    text-align: center;
+    margin: 0 auto;
+    line-height: 75vh;
+    font-size: 10vmin;
+}
+
+.slide {
+    float: left;
+    height: 100%;
+    width: 0;
+    transition: width 0.3s linear;
+    padding: 0;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.slide > * {
+    transition: transform 0.15s linear;
+    transform: scale(0);
+}
+
+.labels {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.labels label {
+    display: inline-block;
+    background-color: transparent;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    margin: 0.5vmin 2vmin;
+    border: 3px solid white;
+}
+
+.carousel .one,
+.carousel .two,
+.carousel .three,
+.carousel .four,
+.carousel .five {
+    background-position: center center;
+    background-size: cover;
+}
+
+.carousel .one {
+    background-image: url(../img/banner/banner-bg-2.jpg);
+}
+
+.carousel .two {
+    background-image: url(../img/banner/banner-bg-3.jpg);
+}
+
+.carousel .three {
+    background-image: url(../img/banner/banner-bg-4.jpg);
+}
+
+.carousel .four {
+    background-image: url(../img/banner/banner-bg-5.jpg);
+}
+
+#slide-btn-1:checked ~ .one,
+#slide-btn-2:checked ~ .two,
+#slide-btn-3:checked ~ .three,
+#slide-btn-4:checked ~ .four {
+    width: 100%;
+}
+
+#slide-btn-1:checked ~ .one > *,
+#slide-btn-2:checked ~ .two > *,
+#slide-btn-3:checked ~ .three > *,
+#slide-btn-4:checked ~ .four > *,
+#slide-btn-5:checked ~ .five > * {
+    transform: scale(1);
+}
+
+#slide-btn-1:checked ~ .labels label[for="slide-btn-1"],
+#slide-btn-2:checked ~ .labels label[for="slide-btn-2"],
+#slide-btn-3:checked ~ .labels label[for="slide-btn-3"],
+#slide-btn-4:checked ~ .labels label[for="slide-btn-4"],
+#slide-btn-5:checked ~ .labels label[for="slide-btn-5"] {
+    background-color: white;
+}
+
+
 .banner-area.bg-1 {
 	background-image: url(../img/banner/banner-bg-1.jpg)
 }
