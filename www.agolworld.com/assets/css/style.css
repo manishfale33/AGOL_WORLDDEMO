@@ -1021,52 +1021,6 @@ textarea.form-control {
 	background-image: url(../img/banner/banner-bg-3.png)
 }
 
-.banner-area-three {
-	position: relative;
-	overflow: hidden;
-  }
-  
-  .banner-area-three {
-	position: relative;
-	overflow: hidden;
-  }
-  
-  .banner-area-three::before {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	background-size: cover;
-	background-position: center;
-	animation: carousel 10s infinite linear; /* Adjust the duration as needed */
-  }
-  
-  @keyframes carousel {
-	0% {
-	  opacity: 1;
-	  background-image: url("../img/banner/banner-bg-2.png");
-	}
-	25% {
-	  opacity: 0;
-	  background-image: url("../img/banner/banner-bg-3.png");
-	}
-	50% {
-	  opacity: 0;
-	  background-image: url("../img/banner/banner-bg-4.png");
-	}
-	75% {
-	  opacity: 0;
-	  background-image: url("../img/banner/banner-bg-5.png");
-	}
-	100% {
-	  opacity: 1;
-	  background-image: url("../img/banner/banner-bg-2.png");
-	}
-  }
-  
-
 .banner-area.banner-area-two {
 	overflow: hidden
 }
