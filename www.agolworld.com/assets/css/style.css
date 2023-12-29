@@ -936,7 +936,7 @@ textarea.form-control {
 .carousel .four {
     background-position: center center;
     background-size: contain;
-    filter: blur(0px); /* Adjust the initial blur amount as needed */
+    filter: blur(2px); /* Adjust the initial blur amount as needed */
     mask-image: linear-gradient(to right, transparent 0%, white 40%);
 }
 
