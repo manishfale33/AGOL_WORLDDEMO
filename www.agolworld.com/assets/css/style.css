@@ -420,11 +420,12 @@ textarea.form-control {
 .top-header {
 	background-color: #f10000;
 	padding-top: 10px;
-	padding-bottom: 10px
+	padding-bottom: 10px;
+	
 }
 
 .top-header .header-left-content {
-	line-height: 1;
+	line-height: none;
 	list-style: none;
 	padding: 0;
 	margin: 0
@@ -570,7 +571,41 @@ textarea.form-control {
 }
 
 .top-header.top-header-three .header-left-content {
-	position: relative
+	position: relative;
+	display: flex;
+    align-items: center; /* Align items vertically in the center */
+}
+
+.top-header.top-header-three .header-left-content li {
+    margin-right: 30px;
+    color: #fff;
+    font-size: 14px;
+    position: relative;
+    padding-left: 30px;
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+}
+
+.top-header.top-header-three .header-left-content li:last-child {
+    margin-right: 0;
+}
+
+.top-header.top-header-three .header-left-content li i {
+    color: #fff;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.top-header.top-header-three .header-left-content li a {
+    display: block;
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none; /* Remove underlines */
+}
+
+.top-header.top-header-three .header-left-content li a:hover {
+    color: #f10000;
 }
 
 .top-header.top-header-three .header-left-content::before {
