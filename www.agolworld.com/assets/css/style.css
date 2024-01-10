@@ -623,6 +623,33 @@ textarea.form-control {
 .top-header.top-header-three .header-left-content li a:hover {
 	color: #f10000
 }
+/* Responsive styles for screens up to 767 pixels wide (typical mobile devices) */
+@media only screen and (max-width: 767px) {
+    .top-header .header-left-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .top-header .header-left-content li {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .top-header .header-left-content li:last-child {
+        margin-bottom: 0;
+    }
+
+    .top-header .header-left-content::before {
+        content: "";
+        position: absolute;
+        top: -50px;
+        left: -20px;
+        width: calc(100% + 40px);
+        height: 100px;
+        background-color: #ffeb00;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+}
 
 .navbar-area {
 	-webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, .05);
@@ -6259,16 +6286,18 @@ label {
 }
 
 .icon-bara-d {
-	position: fixed;
-	bottom: 100px;
-	z-index: 999;
-	right: 15px;
-	/*background:green;*/
-	width: 50px;
-	height: 50px;
-	border-radius: 50%;
-
+    position: fixed;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    z-index: 999;
+    /* background: green; */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
 }
+
+
 
 .flaticon-whatsapp {
 	font-size: 50px;
