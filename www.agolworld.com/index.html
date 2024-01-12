@@ -75,7 +75,8 @@
 					<div class="col-lg-8 col-md-10">
 						<ul class="header-left-content">
 							<li>
-								<i class="bx bx-phone-call"></i>24h Customer Service Hotline <a href="tel:+919730702811"> +91 9730702811</a>
+								<i class="bx bx-phone-call"></i>24h Customer Service Hotline <a href="tel:+919730702811"> +91
+									9730702811</a>
 							</li>
 							<li>
 								<i class="bx bx-envelope"></i>
@@ -89,14 +90,15 @@
 							<!--a href="track-order.html" style="color:#fff">Track Order</a-->
 							<a href="contact_us.html" style="color: #fff">Use Call Back Service </a>
 							<a href="contact_us.html" style="color: #fff">- Immediate Freight request</a>
-			
+							<!-- Container for the custom translation bar -->
+		<div id="custom_translate_element"></div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-
-
+	
+		
 		<div class="navbar-area">
 			<div class="mobile-nav">
 				<div class="container">
@@ -814,6 +816,29 @@
 		<i class="bx bx-chevrons-up"></i>
 		<i class="bx bx-chevrons-up"></i>
 	</div>
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <!-- Google Translate API script -->
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <!-- Google Translate API initialization script -->
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({
+                pageLanguage: 'en',
+                includedLanguages: 'en,es,fr',
+                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                autoDisplay: false
+            }, 'custom_translate_element');
+        }
+
+        // Trigger the initialization script
+        $(document).ready(function () {
+            googleTranslateElementInit();
+        });
+    </script>
 
 	<script src="assets/js/carousel.js"></script>
 
