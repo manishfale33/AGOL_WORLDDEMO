@@ -660,9 +660,39 @@ textarea.form-control {
 }
 
 .navbar-area {
-	-webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, .05);
-	box-shadow: 0 0 20px 3px rgba(0, 0, 0, .05);
-	background-color: #fff
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    transition: background-color 0.5s ease; /* Add a smooth transition effect */
+}
+
+/* Add gradient to the right side */
+.navbar-area::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 20%; /* Adjust the width of the red gradient */
+    background: linear-gradient(to right, transparent, red); /* Adjust the gradient colors */
+}
+
+/* Change background color on scroll */
+.navbar-area.scrolled {
+    background-color: white;
+}
+
+/* Add red triangle on the right side */
+.navbar-area.triangle::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-style: solid;
+    border-width: 0 0 100px 100px; /* Adjust the size of the triangle */
+    border-color: transparent transparent transparent red; /* Adjust the triangle color */
 }
 
 .navbar-area .desktop-nav .navbar {
@@ -688,7 +718,7 @@ textarea.form-control {
 }
 
 .navbar-area .desktop-nav .navbar .navbar-nav .nav-item a {
-	font-size: 15px;
+	font-size: 20px;
 	font-weight: 600;
 	color: #000024;
 	-webkit-transition: all ease .5s;
@@ -1025,6 +1055,10 @@ textarea.form-control {
     transform: scale(0);
 }
 
+.slide-btn {
+    display: none;
+}
+
 .labels {
     position: absolute;
     bottom: 0;
@@ -1066,6 +1100,8 @@ textarea.form-control {
 .carousel .four {
     background-image: url(../img/banner/banner-bg-5.png);
 }
+
+
 
 #slide-btn-1:checked ~ .one,
 #slide-btn-2:checked ~ .two,
