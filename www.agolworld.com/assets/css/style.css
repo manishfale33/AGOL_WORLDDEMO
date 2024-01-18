@@ -678,6 +678,13 @@ textarea.form-control {
     width: 20%; /* Adjust the width of the red gradient */
     background: linear-gradient(to right, transparent, red); /* Adjust the gradient colors */
 }
+.navbar-area {
+    transition: transform 0.3s ease;
+}
+
+.navbar-hidden {
+    transform: translateY(-100%);
+}
 
 /* Change background color on scroll */
 .navbar-area.scrolled {
