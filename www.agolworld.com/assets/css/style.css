@@ -410,6 +410,11 @@ textarea.form-control {
 
 .header-area {
     position: relative;
+	top: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	z-index: 999
 }
 
 .top-header {
@@ -636,8 +641,8 @@ textarea.form-control {
     top: 0;
     left: 0;
     width: 100%;
-	background-color: transparent; /* Set background color to transparent */
-    transition: transform 0.3s ease;
+    background-color: transparent; /* Set initial background color to transparent */
+    transition: background-color 0.3s ease; /* Add transition for a smooth effect */
 }
 
 /* Add gradient to the right side */
@@ -647,8 +652,8 @@ textarea.form-control {
     top: 0;
     right: 0;
     bottom: 0;
-    width: 20%; /* Adjust the width of the red gradient */
-    /*background: linear-gradient(to right, transparent, rgb(255, 255, 255)); /* Adjust the gradient colors */
+    width: 20%; /* Adjust the width of the gradient */
+    background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.8)); /* Adjust the gradient colors */
 }
 .navbar-area {
     transition: transform 0.3s ease;
