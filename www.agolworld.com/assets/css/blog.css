@@ -554,26 +554,7 @@
     }
   
   
-  
-    /**
-     * FOOTER 
-     */
-  
-    footer .container {
-      padding: var(--py) 30px;
-      grid-template-columns: 2fr 1fr 1fr;
-    }
-  
-    footer .wrapper { text-align: left; }
-  
-    .footer-text { margin: 0; }
-  
-  }
-  
-  
-  
-  
-  
+
   /**
    * responsive for larger than 768px screen
    */
@@ -921,12 +902,3 @@
   
   
   
-    /**
-     * FOOTER 
-     */
-  
-    .footer-title { font-size: 1.125rem; }
-  
-    .footer-link { margin-bottom: 0.3rem; }
-  
-  }
