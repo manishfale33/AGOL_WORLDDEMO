@@ -20,25 +20,6 @@
   
   }
   
-  .dark-theme {
-  
-    /**
-     * dark theme colors 
-     */
-  
-    --background-primary: hsl(218, 23%, 23%);
-    --background-secondary: hsl(220, 26%, 14%);
-  
-    --action-primary: hsl(216, 15%, 52%);
-    --action-secondary: hsl(218, 23%, 23%);
-  
-    --foreground-primary: hsl(210, 38%, 95%);
-    --foreground-secondary: hsl(211, 25%, 84%);
-    --foreground-tertiary: hsl(214, 20%, 69%);
-  
-    --accent: hsl(229, 76%, 66%);
-  
-  }
   
   :root {
   
@@ -400,18 +381,6 @@
   
   
   
-  
-  
-  /*-----------------------------------*\ 
-    #FOOTER
-  \*-----------------------------------*/
-  
- 
-  
-  
-  
-  
-  
   /*-----------------------------------*\ 
     #MEDIA QUERIES
   \*-----------------------------------*/
@@ -486,15 +455,7 @@
     .container { padding: 0 30px; }
   
   
-  
-    /**
-     * HEADER 
-     */
-  
-    .navbar { padding: 30px 0; }
-  
-  
-  
+
     /**
      * BLOG 
      */
@@ -899,6 +860,3 @@
       margin-inline: auto;
       margin: auto; /* fallback for margin-inline */
     }
-  
-  
-  
