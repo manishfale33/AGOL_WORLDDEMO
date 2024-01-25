@@ -636,6 +636,32 @@ textarea.form-control {
 	display: none;
 }
 
+.goog-te-banner-frame.skiptranslate,.goog-te-gadget-simple img { 
+	display: none !important;
+}
+
+.goog-tooltip { 
+
+	display: none !important;
+}
+	
+.goog-tooltip:hover {
+	
+	display: none !important;
+}
+	
+.goog-text-highlight {
+	background-color: transparent !important;
+	border: none !important; 
+	box-shadow: none !important;
+}
+	
+.body{
+	
+	top: 0px !important;
+}
+	
+
 .navbar-area {
     position: relative;
     top: 0;
@@ -1017,7 +1043,8 @@ textarea.form-control {
 .carousel .one,
 .carousel .two,
 .carousel .three,
-.carousel .four {
+.carousel .four,
+.carousel .five {
     background-position: center center;
     background-size: contain;
     filter: blur(2px); /* Adjust the initial blur amount as needed */
@@ -1084,7 +1111,9 @@ textarea.form-control {
 .carousel .four {
     background-image: url(../img/banner/banner-bg-5.png);
 }
-
+.carousel .four {
+    background-image: url(../img/banner/banner-bg-6.png);
+}
 
 
 #slide-btn-1:checked ~ .one,
