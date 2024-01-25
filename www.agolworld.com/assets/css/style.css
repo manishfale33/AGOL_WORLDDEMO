@@ -1047,8 +1047,8 @@ textarea.form-control {
 .carousel .five {
     background-position: center center;
     background-size: contain;
-    filter: blur(2px); /* Adjust the initial blur amount as needed */
-    mask-image: linear-gradient(to right, transparent 0%, white 40%);
+    filter: blur(0px); /* Adjust the initial blur amount as needed */
+    mask-image: linear-gradient(to right, transparent 0%, rgb(137, 137, 137) 40%);
 }
 
 .slide {
