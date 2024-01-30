@@ -101,11 +101,9 @@
   
   .light-theme::-webkit-scrollbar-thumb { border-color: hsl(0, 0%, 90%); }
   
-  .dark-theme::-webkit-scrollbar-thumb { border-color: hsl(219, 27%, 20%); }
-  
   .light-theme::-webkit-scrollbar-track { background: hsl(0, 0%, 90%); }
   
-  .dark-theme::-webkit-scrollbar-track { background: hsl(219, 27%, 20%); }
+ 
   
   
   
@@ -189,37 +187,12 @@
   
   
   
-  
-  /*-----------------------------------*\ 
-    #Extra style for dark theme
-  \*-----------------------------------*/
-  
-  .dark-theme .btn-primary:hover { color: var(--background-primary); }
-  
-  .dark-theme .blog-topic {
-    background: var(--action-primary);
-    color: var(--foreground-secondary);
-  }
-  
-  .dark-theme .blog-topic:hover {
-    background: var(--foreground-primary);
-    color: var(--action-primary);
-  }
-  
-  .dark-theme .load-more:hover { color: var(--white); }
-  
-  .dark-theme .aside .h2 { color: var(--foreground-primary); }
+ 
   
   
   
   
-  /*-----------------------------------*\ 
-    #HEADER
-  \*-----------------------------------*/
-  
-  header { background: var(--background-primary); }
-  
-  header .flex-wrapper { display: none; }
+
   
 
   
