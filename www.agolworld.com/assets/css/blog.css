@@ -17,7 +17,8 @@
     --foreground-tertiary: hsl(214, 20%, 69%);
   
     --accent: hsl(229, 76%, 66%);
-  
+
+    --red_hg: hsl(0, 100%, 50%)
   }
   
   
@@ -217,7 +218,7 @@
   }
   
   .hero b {
-    color: var(--accent);
+    color: var(--red_hg);
     font-weight: inherit;
   }
   
