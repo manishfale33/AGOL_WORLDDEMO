@@ -187,20 +187,6 @@
   
   
   
-  
- 
-  
-  
-  
-  
-
-  
-
-  
-  
-  
-  
-  
   /*-----------------------------------*\ 
     #HERO SECTION
   \*-----------------------------------*/
@@ -535,29 +521,7 @@
   
   
   
-    /**
-     * HEADER 
-     */
-  
-    header .btn-group { display: none; }
-  
-    header .flex-wrapper {
-      display: flex;
-      gap: 30px;
-    }
-  
-    .desktop-nav {
-      display:     flex;
-      align-items: center;
-      gap: 30px;
-    }
-  
-    .desktop-nav .nav-link {
-      color: var(--foreground-secondary);
-      font-weight: 700;
-    }
-  
-    .desktop-nav .nav-link:hover { color: var(--accent); }
+   
   
     .theme-btn-desktop {
       position: relative;
