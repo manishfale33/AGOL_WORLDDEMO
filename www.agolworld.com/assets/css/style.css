@@ -434,7 +434,7 @@ textarea.form-control {
 .top-header .header-left-content li {
 	display: inline-block;
 	margin-right: 30px;
-	color: #fff;
+	color: #0d0d0d;
 	font-size: 14px;
 	position: relative;
 	padding-left: 30px
@@ -445,7 +445,7 @@ textarea.form-control {
 }
 
 .top-header .header-left-content li i {
-	color: #fff;
+	color: #000000;
 	display: inline-block;
 	margin-right: 10px;
 	font-size: 18px;
@@ -458,7 +458,7 @@ textarea.form-control {
 	display: block;
 	font-weight: 400;
 	font-size: 15px;
-	color: #fff
+	color: #0f0f0f
 }
 
 .top-header .header-left-content li a:hover {
@@ -483,7 +483,7 @@ textarea.form-control {
 
 .top-header .header-right-content .flag-area .flag-item-top .flag-bar img {
 	width: 25px;
-	border: 2px solid #fff;
+	border: 2px solid #ffffff;
 	border-radius: 50%
 }
 
