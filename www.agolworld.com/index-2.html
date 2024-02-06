@@ -85,12 +85,17 @@
 						</li>
 					</ul>
 				</div>
-				<div class="col-lg-4 col-md-2">
+				<div class="col-lg-4 col-md-3">
 					<div class="header-right-content">
 						<!--a href="track-order.html" style="color:#fff">Track Order</a-->
 						<a href="contact_us.html" style="color: #fff">Use Call Back Service </a>
-						<a href="IF-request.html" style="color: #fff">- Immediate Freight request</a>
-
+						<a href="IF-request.html" style="color: #fff">Immediate Freight request</a>
+						<a>
+							<div class="single-footer-widget">
+								<!-- Container for the custom translation bar -->
+								<div id="custom_translate_element"></div>
+							</div>
+						</a>
 					</div>
 				</div>
 			</div>
@@ -719,7 +724,7 @@
 				</div>
 				<div class="col-lg-3 col-md-6">
 					<div class="single-footer-widget">
-						<h3>Registered Address</h3>
+						<h3>Contact Us</h3>
 						<ul class="address">
 							<!--li>
 								<i class="bx bxs-map"></i>
@@ -732,22 +737,15 @@
 								<a href="mailto:time.critical@agolworld.com"><span
 										class="__cf_email__">time.critical@agolworld.com</span></a>
 							</li>
-							<li>
+							<!--li>
 								<i class="bx bxs-phone-call"></i>
 								<a href="contact_us.html">Contact Us</a>
-								<!--a href="tel:+91-9730702811">+91-9730702811</a>
+								<a href="tel:+91-9730702811">+91-9730702811</a>
 								<a href="tel:+12013663261">+1 201 366 3261</a>
-								<a href="tel:+442036959928">+44 20 3695 9928</a-->
-							</li>
+								<a href="tel:+442036959928">+44 20 3695 9928</a>
+							</li-->
 						</ul>
 					</div>
-				</div>
-				<div class="col-lg-3 col-md-6">
-					<div class="single-footer-widget">
-						<!-- Container for the custom translation bar -->
-						<div id="custom_translate_element"></div>
-					</div>
-
 				</div>
 			</div>
 		</div>
@@ -762,9 +760,11 @@
 		</div>
 	</div>
 	<div class="icon-bara-d">
-		<a href="https://api.whatsapp.com/send?phone=+919730702811" target="_blank" class="whatsapp"><img
-				src="assets/img/whatsapp.png" /></a>
+		<a href="https://api.whatsapp.com/send?phone=+919730702811" target="_blank" class="whatsapp">
+			<img src="assets/img/whatsapp.png" alt="WhatsApp" />
+		</a>
 	</div>
+
 	<!-- Sendinblue Conversations {literal} -->
 	<script>
 		(function (d, w, c) {
@@ -777,6 +777,37 @@
 			s.src = '../conversations-widget.brevo.com/sib-conversations.js';
 			if (d.head) d.head.appendChild(s);
 		})(document, window, 'SibConversations');
+	</script>
+	<!-- /Sendinblue Conversations {/literal} -->
+
+
+	<div class="go-top">
+		<i class="bx bx-chevrons-up"></i>
+		<i class="bx bx-chevrons-up"></i>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+	<!-- Google Translate API script -->
+	<script type="text/javascript"
+		src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+	<!-- Google Translate API initialization script -->
+	<script type="text/javascript">
+		function googleTranslateElementInit() {
+			new google.translate.TranslateElement({
+				pageLanguage: 'en',
+				includedLanguages: 'en,es,fr,de,it,ja,zh-CN,zh-TW',
+				layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+				autoDisplay: false
+			}, 'custom_translate_element');
+		}
+
+		// Trigger the initialization script
+		$(document).ready(function () {
+			googleTranslateElementInit();
+		});
 	</script>
 	<!-- /Sendinblue Conversations {/literal} -->
 
