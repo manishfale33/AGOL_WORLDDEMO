@@ -1097,22 +1097,18 @@ textarea.form-control {
 }
 
 .carousel .one {
-    background-image: url(../img/banner/banner-bg-2.jpg);
+    background-image: url(../img/banner/banner-bg-6.png);
 }
 
 .carousel .two {
-    background-image: url(../img/banner/banner-bg-3.jpg);
+    background-image: url(../img/banner/banner-bg-2.jpg);
 }
 
 .carousel .three {
-    background-image: url(../img/banner/banner-bg-4.jpg);
+    background-image: url(../img/banner/banner-bg-3.jpg);
 }
-
 .carousel .four {
     background-image: url(../img/banner/banner-bg-5.png);
-}
-.carousel .four {
-    background-image: url(../img/banner/banner-bg-6.png);
 }
 
 
