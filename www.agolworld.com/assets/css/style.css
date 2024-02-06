@@ -578,7 +578,7 @@ textarea.form-control {
 
 .top-header.top-header-three .header-left-content li {
     margin-right: 30px;
-    color: #fff;
+    color: #090909;
     font-size: 14px;
     position: relative;
     padding-left: 30px;
@@ -591,7 +591,7 @@ textarea.form-control {
 }
 
 .top-header.top-header-three .header-left-content li i {
-    color: #fff;
+    color: #0e0e0e;
     margin-right: 10px;
     font-size: 18px;
 }
@@ -600,7 +600,7 @@ textarea.form-control {
     display: block;
     font-weight: 400;
     font-size: 15px;
-    color: #fff;
+    color: #000000;
     text-decoration: none; /* Remove underlines */
 }
 
@@ -623,6 +623,28 @@ textarea.form-control {
 .top-header.top-header-three .header-left-content li a:hover {
 	color: #f10000
 }
+
+.top-header.top-header-three .header-right-content {
+    text-align: right; /* Align content to the right */
+    white-space: nowrap; /* Prevent content from wrapping to the next line */
+}
+
+.top-header.top-header-three .header-right-content a {
+    display: inline-block; /* Ensure links behave as inline elements */
+    margin-left: 10px; /* Reduce spacing between links */
+    color: #0b0b0b; /* Set link color to white */
+    text-decoration: none; /* Remove underlines */
+}
+
+.top-header.top-header-three .header-right-content a:first-child {
+    margin-left: 0; /* Remove margin for the first link */
+}
+
+.top-header.top-header-three .header-right-content a:hover {
+    color: #f10000; /* Change link color on hover */
+}
+
+
 /* Responsive styles for screens up to 767 pixels wide (typical mobile devices) */
 @media only screen and (max-width: 767px) {
    
@@ -654,6 +676,10 @@ textarea.form-control {
 	background-color: transparent !important;
 	border: none !important; 
 	box-shadow: none !important;
+}
+
+#custom_translate_element .goog-te-menu-value {
+    background-color: transparent !important; /* Remove background color */
 }
 	
 .body{
