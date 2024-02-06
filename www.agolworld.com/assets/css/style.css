@@ -3604,7 +3604,8 @@ textarea.form-control {
 	margin-bottom: 30px;
 	padding: 30px;
 	-webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, .05);
-	box-shadow: 0 0 20px 3px rgba(0, 0, 0, .05)
+	box-shadow: 0 0 20px 3px rgba(0, 0, 0, .05);
+	background: linear-gradient(50deg, #e5e5e5,#fafaf9);
 }
 
 .single-product .product-img {
