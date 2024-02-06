@@ -625,14 +625,16 @@ textarea.form-control {
 }
 
 .top-header.top-header-three .header-right-content {
-    text-align: right; /* Align content to the right */
+    text-align: center; /* Align content to the center */
     white-space: nowrap; /* Prevent content from wrapping to the next line */
+    display: flex; /* Use flexbox */
+	align-items: center; /* Center-align the content */
 }
 
 .top-header.top-header-three .header-right-content a {
     display: inline-block; /* Ensure links behave as inline elements */
     margin-left: 10px; /* Reduce spacing between links */
-    color: #0b0b0b; /* Set link color to white */
+    color: #0b0b0b; /* Set link color to black */
     text-decoration: none; /* Remove underlines */
 }
 
