@@ -418,7 +418,7 @@ textarea.form-control {
 }
 
 .top-header {
-	background-color: #f10000;
+	background-color: #ff0000;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	
@@ -691,35 +691,9 @@ textarea.form-control {
 	
 
 .navbar-area {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background-color: transparent; /* Set initial background color to transparent */
-    transition: background-color 0.3s ease; /* Add transition for a smooth effect */
-}
-
-/* Add gradient to the right side */
-.navbar-area::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    width: 20%; /* Adjust the width of the gradient */
-    background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.8)); /* Adjust the gradient colors */
-}
-.navbar-area {
-    transition: transform 0.3s ease;
-}
-
-.navbar-hidden {
-    transform: translateY(-100%);
-}
-
-/* Change background color on scroll */
-.navbar-area.scrolled {
-    background-color: white;
+	-webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, .05);
+	box-shadow: 0 0 20px 3px rgba(0, 0, 0, .05);
+	background-color: rgba(0, 0, 0, .1);
 }
 
 .navbar-area .desktop-nav .navbar {
@@ -759,7 +733,7 @@ textarea.form-control {
 }
 
 .navbar-area .desktop-nav .navbar .navbar-nav .nav-item a i {
-	font-size: 2px;
+	font-size: 22px;
 	line-height: 0;
 	position: relative;
 	top: 4px
@@ -970,6 +944,8 @@ textarea.form-control {
 	display: none
 }
 
+
+
 .others-option-for-responsive {
 	display: none
 }
@@ -1064,7 +1040,7 @@ textarea.form-control {
 .carousel .five {
     background-position: center center;
     background-size: contain;
-    filter: blur(0px); /* Adjust the initial blur amount as needed */
+    filter: blur(3px); /* Adjust the initial blur amount as needed */
     mask-image: linear-gradient(to right, transparent 0%, rgb(137, 137, 137) 40%);
 }
 
